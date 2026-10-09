@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img"><title>Enzyme kinetics: two substrate-response curves</title><desc>Reference and inhibitor curves approaching same maximum velocity; inhibited curve shifted right</desc><rect width="900" height="500" rx="26" fill="#0b1730"/><text x="40" y="54" font-family="Arial,sans-serif" font-size="29" fill="#f5f7ff" font-weight="bold">Enzyme kinetics: two substrate-response curves</text>
+<g stroke="#d0dcf0" stroke-width="3" fill="none"><path d="M136 390 V108 M136 390 H792"/></g>
+<line x1="137" y1="145" x2="785" y2="145" stroke="#f0d072" stroke-dasharray="8 9" stroke-width="2"/>
+<text x="42" y="150" fill="#f0d072" font-family="Arial" font-size="22">Vmax</text>
+<text x="598" y="434" fill="white" font-family="Arial" font-size="23">[Substrate]</text><text x="48" y="106" fill="white" font-family="Arial" font-size="22">Rate</text>
+<path d="M139 385 C180 260, 246 200, 340 174 S550 145, 785 145" fill="none" stroke="#61d7c5" stroke-width="6"/>
+<path d="M139 386 C219 358, 307 254, 406 210 S614 156, 785 145" fill="none" stroke="#fa9c92" stroke-width="6"/>
+<g font-family="Arial" font-size="22" fill="#f5f7ff"><line x1="525" y1="315" x2="572" y2="315" stroke="#61d7c5" stroke-width="6"/><text x="584" y="322">Reference</text><line x1="525" y1="353" x2="572" y2="353" stroke="#fa9c92" stroke-width="6"/><text x="584" y="360">With inhibitor</text></g></svg>

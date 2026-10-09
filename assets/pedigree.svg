@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img"><title>Genetics: X-linked recessive cross</title><desc>Carrier mother X A X a and unaffected father X A Y and offspring genotype possibilities</desc><rect width="900" height="500" rx="26" fill="#0b1730"/><text x="40" y="54" font-family="Arial,sans-serif" font-size="29" fill="#f5f7ff" font-weight="bold">Genetics: X-linked recessive cross</text>
+<g font-family="Arial" fill="#ecf3ff" font-size="27" text-anchor="middle"><circle cx="300" cy="154" r="54" fill="#1f4968" stroke="#a5bde6" stroke-width="4"/><text x="300" y="164">XᴬXᵃ</text>
+<rect x="526" y="100" width="112" height="112" rx="5" fill="#1f4968" stroke="#a5bde6" stroke-width="4"/><text x="582" y="164">XᴬY</text>
+<text x="300" y="235" font-size="20">Carrier mother</text><text x="580" y="235" font-size="20">Unaffected father</text></g>
+<path d="M356 154 H525 M441 154 V273 M236 273 H680" stroke="#80cff0" stroke-width="4" fill="none"/>
+<g fill="#3f90b7" stroke="#d7ebff" stroke-width="3"><rect x="229" y="309" width="100" height="100" rx="7"/><rect x="421" y="309" width="100" height="100" rx="7"/><circle cx="684" cy="360" r="50"/></g>
+<g font-family="Arial" font-size="18" fill="white" text-anchor="middle"><text x="281" y="367">XᴬY</text><text x="473" y="367">XᵃY</text><text x="683" y="366">Daughter</text><text x="280" y="441">Unaffected son</text><text x="472" y="441">Affected son</text><text x="684" y="441">Genotype varies</text></g></svg>

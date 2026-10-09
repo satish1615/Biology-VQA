@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img"><title>Gene regulation: operator occupancy</title><desc>DNA promoter and operator with bound lac repressor blocking transcription</desc><rect width="900" height="500" rx="26" fill="#0b1730"/><text x="40" y="54" font-family="Arial,sans-serif" font-size="29" fill="#f5f7ff" font-weight="bold">Gene regulation: operator occupancy</text>
+<line x1="78" y1="298" x2="820" y2="298" stroke="#7fc3f4" stroke-width="16" stroke-linecap="round"/>
+<rect x="128" y="258" width="141" height="78" rx="10" fill="#2e9aa6"/><text x="149" y="305" fill="white" font-size="26" font-family="Arial">Promoter</text>
+<rect x="314" y="258" width="150" height="78" rx="10" fill="#e6ad60"/><text x="332" y="305" fill="#192231" font-size="26" font-family="Arial">Operator</text>
+<rect x="507" y="259" width="240" height="77" rx="9" fill="#526de1"/><text x="546" y="305" fill="white" font-size="26" font-family="Arial">lacZ / lacY / lacA</text>
+<path d="M333 246 C310 202, 355 150, 397 172 S448 222, 418 247 Z" fill="#fb7695" stroke="#fce5ec" stroke-width="3"/>
+<text x="309" y="131" fill="#f5f7ff" font-size="25" font-family="Arial">Repressor bound</text>
+<path d="M390 142 V170" stroke="#f5f7ff" stroke-width="3"/>
+<text x="90" y="404" fill="#bfcde6" font-size="23" font-family="Arial">Diagram shows the operator occupied by a repressor.</text></svg>

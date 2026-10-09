@@ -1,0 +1,134 @@
+[
+  {
+    "id": "BIO-001",
+    "subdomain": "Cell Biology",
+    "image": "assets/metaphase.svg",
+    "question": "Assuming checkpoint satisfaction, which chromosome movement should occur immediately after the arrangement shown?",
+    "choices": {
+      "A": "Homologous chromosome pairing during prophase I",
+      "B": "Sister chromatids separating toward opposite poles",
+      "C": "Chromosomes decondensing before spindle formation",
+      "D": "The nuclear envelope forming before chromatid separation"
+    },
+    "answer": "B",
+    "explanation": "Each duplicated chromosome is aligned at the metaphase plate with attachments oriented toward opposite spindle poles. After the spindle assembly checkpoint is satisfied, separase-mediated cohesin cleavage allows sister chromatids to move toward opposite poles in anaphase. Homologous pairing belongs to meiosis, and decondensation or nuclear envelope assembly occur later.",
+    "image_description": "This original cell-division schematic shows an oval cell with two opposing spindle poles, six spindle fibers, and three X-shaped duplicated chromosomes positioned along a dashed central metaphase plate. No nuclear envelope or separation of chromatids is depicted. The drawn colors indicate structures only; this is a teaching diagram, not microscopy.",
+    "visual_evidence": [
+      "Three X-shaped duplicated chromosomes lie on one dashed equatorial line.",
+      "Spindle fibers approach the chromosomes from both opposing poles."
+    ],
+    "difficulty": "Intermediate",
+    "learning_objective": "Infer the next mitotic event from spatial chromosome arrangement.",
+    "image_provenance": "Original programmatic SVG schematic; educational, not experimental data."
+  },
+  {
+    "id": "BIO-002",
+    "subdomain": "Molecular Cell Biology",
+    "image": "assets/lac_repressor.svg",
+    "question": "Given the bound repressor indicated in this diagram, what direct regulatory effect does operator occupancy have on lac structural-gene transcription?",
+    "choices": {
+      "A": "It increases translation by recruiting ribosomes",
+      "B": "It recruits RNA polymerase to the promoter",
+      "C": "It represses transcription initiation or progression at the operon",
+      "D": "It causes DNA replication to stop throughout the chromosome"
+    },
+    "answer": "C",
+    "explanation": "A repressor occupying the operator directly interferes with productive transcription of the downstream lac structural genes. Lac regulation has other inputs, including catabolite control, but they are not needed to infer the direct operator effect shown here. Ribosome recruitment and genome-wide replication arrest do not follow from this occupancy.",
+    "image_description": "The horizontal DNA track displays a promoter, operator, and downstream lacZ, lacY, and lacA coding region. A pink protein shape labeled repressor bound overlaps the operator box, visually representing operator occupancy. The schematic does not show inducer concentration, polymerase position, or glucose signaling; those values must not be assumed.",
+    "visual_evidence": [
+      "The repressor occupies the labeled operator.",
+      "Structural genes are drawn downstream of the occupied operator."
+    ],
+    "difficulty": "Intermediate",
+    "learning_objective": "Connect lac operator occupancy to transcriptional repression.",
+    "image_provenance": "Original programmatic SVG schematic; educational, not experimental data."
+  },
+  {
+    "id": "BIO-003",
+    "subdomain": "Biochemistry",
+    "image": "assets/enzyme_kinetics.svg",
+    "question": "Which inhibition model is most consistent with the two rate-versus-substrate curves, assuming the asymptotes are equivalent?",
+    "choices": {
+      "A": "Pure noncompetitive inhibition that reduces Vmax",
+      "B": "Competitive inhibition with increased apparent Km",
+      "C": "Irreversible enzyme loss that eliminates all catalysis",
+      "D": "Uncompetitive inhibition that lowers both apparent Km and Vmax"
+    },
+    "answer": "B",
+    "explanation": "The inhibited curve requires more substrate to achieve a comparable fraction of maximal rate yet approaches the same upper asymptote as the reference. This pattern is consistent with competitive inhibition, which increases apparent Km without reducing Vmax in the classical Michaelis–Menten model. The figure alone is illustrative and does not establish a real kinetic mechanism experimentally.",
+    "image_description": "Two smooth saturation curves are plotted against substrate concentration: a teal reference curve rises faster, while a coral curve labeled with inhibitor is shifted right. Both approach the same dashed upper line labeled Vmax. Tick-free axes and stylized curves indicate a qualitative schematic rather than fitted assay measurements.",
+    "visual_evidence": [
+      "Both curves approach the same dashed Vmax line.",
+      "The with-inhibitor curve is displaced rightward relative to the reference at intermediate rates."
+    ],
+    "difficulty": "Intermediate",
+    "learning_objective": "Interpret apparent Km and Vmax changes from qualitative enzyme curves.",
+    "image_provenance": "Original programmatic SVG schematic; educational, not experimental data."
+  },
+  {
+    "id": "BIO-004",
+    "subdomain": "Genetics",
+    "image": "assets/pedigree.svg",
+    "question": "For the X-linked recessive allele shown, what fraction of sons is expected to inherit the recessive allele from the carrier mother?",
+    "choices": {
+      "A": "0%",
+      "B": "25%",
+      "C": "50%",
+      "D": "100%"
+    },
+    "answer": "C",
+    "explanation": "A son inherits the Y chromosome from the unaffected father and one maternal X chromosome. The carrier mother has one normal X and one recessive X, so each son has a 1 in 2 probability of receiving the recessive X and being affected under the simple fully penetrant X-linked recessive model. The 50% value applies to sons, not to all offspring.",
+    "image_description": "A two-generation family schematic displays a carrier mother labeled XᴬXᵃ connected to an unaffected father labeled XᴬY. Below them the figure includes example sons labeled XᴬY and XᵃY, plus a daughter whose genotype may vary. Squares and circles distinguish the displayed offspring types. This is a Mendelian illustration, not a clinical pedigree.",
+    "visual_evidence": [
+      "The maternal genotype is XᴬXᵃ.",
+      "The father genotype is XᴬY and illustrated sons receive Y from him."
+    ],
+    "difficulty": "Intermediate",
+    "learning_objective": "Compute sex-conditional transmission risk for X-linked recessive inheritance.",
+    "image_provenance": "Original programmatic SVG schematic; educational, not experimental data."
+  },
+  {
+    "id": "BIO-005",
+    "subdomain": "Biochemistry",
+    "image": "assets/western_blot.svg",
+    "question": "Assuming the assay is in its linear detection range, which conclusion is best supported by the relative lane intensities?",
+    "choices": {
+      "A": "Total loaded protein is twice as high in treated lane",
+      "B": "The treated lane shows lower target signal after loading-control normalization",
+      "C": "Target transcript abundance must be lower",
+      "D": "The treated lane contains no target protein"
+    },
+    "answer": "B",
+    "explanation": "The target band is visibly weaker in the treated lane while the loading-control bands are drawn at comparable intensity. This supports a lower normalized target-protein signal in the treated sample, subject to the assay being unsaturated and controls being valid. A blot by itself cannot prove reduced transcript abundance or complete loss of protein.",
+    "image_description": "A simplified two-lane Western blot graphic labels Control and Treated. The top target row has a broad dark band in Control and a shorter, faint band in Treated; both lower loading-control rows have equally wide dark bands. The panel is a synthetic explanatory diagram with no actual experimental quantification or replicate data.",
+    "visual_evidence": [
+      "The treated target band is weaker than the control target band.",
+      "The loading-control bands are visually matched across lanes."
+    ],
+    "difficulty": "Intermediate",
+    "learning_objective": "Interpret relative Western blot signals while separating direct evidence from unsupported inference.",
+    "image_provenance": "Original programmatic SVG schematic; educational, not experimental data."
+  },
+  {
+    "id": "BIO-006",
+    "subdomain": "Neurobiology",
+    "image": "assets/action_potential.svg",
+    "question": "In a conventional neuronal action potential, which ionic conductance primarily drives the rapid rising phase marked A?",
+    "choices": {
+      "A": "Voltage-gated Na+ conductance increasing",
+      "B": "Voltage-gated K+ conductance increasing as the sole depolarizing current",
+      "C": "Chloride equilibrium potential becoming zero",
+      "D": "Na+/K+ ATPase directly generating the spike upstroke"
+    },
+    "answer": "A",
+    "explanation": "Point A lies on the steep rising phase of the illustrated action potential, where opening of voltage-gated sodium channels normally drives inward sodium current and rapid membrane depolarization in a typical neuron. Potassium current is important later during repolarization. The pump maintains concentration gradients over time but does not directly create the millisecond spike upstroke.",
+    "image_description": "A line plot of neuronal membrane potential versus time begins near resting voltage, rises sharply to a positive peak, falls below resting level, and returns to baseline. A gold point labeled A sits on the steep upward limb and B on the falling limb. The trace is conceptual; the chart does not claim any individual patient or experimental recording.",
+    "visual_evidence": [
+      "Point A is on the steep membrane-potential upstroke.",
+      "Point B is separately marked on the repolarizing downward limb."
+    ],
+    "difficulty": "Intermediate",
+    "learning_objective": "Link action-potential phase to dominant ion channel mechanism.",
+    "image_provenance": "Original programmatic SVG schematic; educational, not experimental data."
+  }
+]

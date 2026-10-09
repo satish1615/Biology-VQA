@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img"><title>Mitosis: spindle configuration</title><desc>Three duplicated chromosomes at cell equator with spindle fibers from opposite poles</desc><rect width="900" height="500" rx="26" fill="#0b1730"/><text x="40" y="54" font-family="Arial,sans-serif" font-size="29" fill="#f5f7ff" font-weight="bold">Mitosis: spindle configuration</text>
+<ellipse cx="449" cy="271" rx="310" ry="164" stroke="#5dbfe4" stroke-width="5" fill="#17365b"/>
+<circle cx="174" cy="270" r="11" fill="#ffb26b"/><circle cx="726" cy="270" r="11" fill="#ffb26b"/>
+<g stroke="#67d6d0" stroke-width="3" opacity=".72"><path d="M174 270 L420 190 M174 270 L420 268 M174 270 L420 349 M726 270 L482 190 M726 270 L482 268 M726 270 L482 349"/></g>
+<line x1="452" y1="107" x2="452" y2="435" stroke="#f6df8a" stroke-width="2" stroke-dasharray="6 8"/>
+<g stroke="#fa90ab" stroke-width="13" stroke-linecap="round"><path d="M422 180 L482 226 M482 180 L422 226 M422 245 L482 293 M482 245 L422 293 M422 324 L482 371 M482 324 L422 371"/></g>
+<g font-family="Arial" fill="#f0f5fd" font-size="20"><text x="57" y="475">Opposite spindle poles</text><text x="570" y="475">Chromosomes aligned centrally</text></g></svg>

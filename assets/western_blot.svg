@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img"><title>Protein assay: matched loading controls</title><desc>Target band is weaker in treated sample, loading control bands equal</desc><rect width="900" height="500" rx="26" fill="#0b1730"/><text x="40" y="54" font-family="Arial,sans-serif" font-size="29" fill="#f5f7ff" font-weight="bold">Protein assay: matched loading controls</text>
+<g font-family="Arial" fill="#eef5ff" font-size="24"><text x="315" y="120">Control</text><text x="553" y="120">Treated</text><text x="60" y="226">Target</text><text x="60" y="366">Loading control</text></g>
+<rect x="254" y="143" width="410" height="270" rx="10" fill="#d1d9e4"/>
+<g fill="#253d57"><rect x="314" y="198" width="132" height="31" rx="7"/><rect x="539" y="202" width="65" height="24" rx="7" opacity=".55"/>
+<rect x="314" y="339" width="132" height="28" rx="7"/><rect x="539" y="339" width="132" height="28" rx="7"/></g>
+<path d="M487 141 V414" stroke="#9caac1" stroke-width="3" stroke-dasharray="9 10"/><text x="290" y="468" fill="#c6d8f5" font-size="19" font-family="Arial">Illustrative blot intensity, equal loading bands</text></svg>

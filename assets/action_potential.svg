@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img"><title>Neurobiology: action potential phases</title><desc>Membrane voltage diagram with A at rapid depolarization and B at repolarization</desc><rect width="900" height="500" rx="26" fill="#0b1730"/><text x="40" y="54" font-family="Arial,sans-serif" font-size="29" fill="#f5f7ff" font-weight="bold">Neurobiology: action potential phases</text>
+<path d="M141 96 V391 H805" fill="none" stroke="#d0def4" stroke-width="3"/>
+<line x1="141" y1="313" x2="804" y2="313" stroke="#6c9db8" stroke-width="2" stroke-dasharray="9 8"/>
+<path d="M142 315 H250 C288 313 307 307 335 213 C363 118 384 111 404 137 C426 166 435 313 463 349 C487 390 520 340 563 315 H805" stroke="#6fe2c9" stroke-width="7" fill="none"/>
+<circle cx="342" cy="186" r="14" fill="#fbd186"/><text x="310" y="160" fill="white" font-family="Arial" font-size="29">A</text>
+<circle cx="439" cy="275" r="14" fill="#fbd186"/><text x="460" y="262" fill="white" font-family="Arial" font-size="29">B</text>
+<g font-family="Arial" fill="#edf5ff" font-size="21"><text x="34" y="116">+30 mV</text><text x="44" y="320">−70 mV</text><text x="630" y="428">Time →</text><text x="44" y="77">Membrane potential</text></g></svg>
