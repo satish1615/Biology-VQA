@@ -16,7 +16,7 @@ st.title("BioVQA AI")
 st.caption("Image-grounded biology questions | scientific reasoning | auditable answers")
 st.info("Educational prototype. Diagrams are original schematics, not microscopy or published experimental evidence. Human subject-matter review is required for research-grade tasks.")
 
-tab1, tab2, tab3, tab4 = st.tabs(["Practice", "Task Explorer", "Author & Validate", "Dataset Audit"])
+tab1, tab2, tab3, tab4, tab5 = st.tabs(["Practice", "Task Explorer", "Author & Validate", "Dataset Audit", "Notes to Flashcards"])
 with tab1:
     st.subheader("Visual reasoning practice")
     domains = ["All"] + sorted({t["subdomain"] for t in TASKS})
@@ -96,3 +96,35 @@ with tab4:
     if errors: st.error(errors)
     else: st.success("All sample tasks pass structural checks, ID checks, and image-path checks.")
     st.caption("This audit checks structure, not domain-expert correctness, experimental validity, or dataset independence.")
+
+
+with tab5:
+    from biovqa.study import create_flashcards
+    st.subheader("Turn your biology notes into source-grounded flashcards")
+    st.caption("Paste your own notes. Every question shows the exact source sentence, and notes are kept in this session. No external AI API is called.")
+    example_notes = (
+        "Mitochondria generate most cellular ATP through oxidative phosphorylation.\n"
+        "During transcription, RNA polymerase synthesizes an RNA strand from a DNA template.\n"
+        "A ribosome translates messenger RNA into a growing polypeptide chain.\n"
+        "Meiosis produces haploid cells after two successive nuclear divisions."
+    )
+    notes = st.text_area("Your study notes", value=example_notes, height=160)
+    flashcards = create_flashcards(notes)
+    if not flashcards:
+        st.info("Add complete sentences containing biology concepts to generate cards.")
+    else:
+        st.metric("Cards grounded in your notes", len(flashcards))
+        card_idx = st.selectbox("Choose a flashcard", range(len(flashcards)), format_func=lambda i: f"Card {i + 1}")
+        card = flashcards[card_idx]
+        st.markdown(f"**Fill the blank:** {card['prompt']}")
+        answer_input = st.text_input("Your answer", key=f"notes-answer-{card_idx}")
+        if st.button("Check flashcard", key=f"notes-check-{card_idx}"):
+            if answer_input.strip().casefold() == card["answer"].casefold():
+                st.success("Correct")
+            else:
+                st.info(f"Expected answer: {card['answer']}")
+        st.markdown("**Exact source sentence from your notes**")
+        st.info(card["source_sentence"])
+        st.download_button("Export flashcards as JSON", json.dumps(flashcards, indent=2),
+                           file_name="notes_flashcards.json", mime="application/json")
+        st.caption("Cards use explicit word matching. They are study prompts, not proof that the underlying notes are correct.")

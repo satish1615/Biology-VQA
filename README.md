@@ -58,3 +58,19 @@ Concepts demonstrated: **biology VQA, scientific image description, multiple-cho
 
 ## License
 MIT. Example assets and sample dataset are included as original materials under this repository license.
+
+
+## Mission alignment: Create a Study App
+
+The **Notes to Flashcards** tab takes pasted biological study notes and produces
+fill-in-the-blank cards with the **exact source sentence** visible for verification.
+No external API, telemetry, or account is required. The process is deterministic
+term matching, not LLM-generated quiz writing; it will not identify arbitrary
+concepts outside its configured biology terms. A user must verify their notes.
+
+The scientific **Practice** tab separately provides six example image-dependent
+multiple-choice questions with explanations and image observations.
+
+To submit the project to a mission, use the actual GitHub URL or a verified
+live deployment URL. Follow the mission's own submission rules if it specifies
+additional steps, screenshots, or a demonstration.
